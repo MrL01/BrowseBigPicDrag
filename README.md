@@ -1,6 +1,6 @@
 #  大图浏览  拖拽缩放退出
 
-
+//浏览多张
 PhotoViewer
           .setData(图片链接List<String>)
           .setCurrentPage(现在是哪页)
