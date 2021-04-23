@@ -60,7 +60,7 @@ class PhotoViewerFragment : BaseLazyFragment() {
         var alpha = 1f  // 透明度
         binding.mIv.setExitLocation(mExitLocation)
         binding.mIv.setImgSize(mImgSize)
-        binding.mIv.isZoomable = false
+        binding.mIv.isZoomable = true
         binding.mIv.setOnLongClickListener {
             if (longClickListener != null) {
                 longClickListener!!.onLongClick(it)
